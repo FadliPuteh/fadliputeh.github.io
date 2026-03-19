@@ -149,16 +149,17 @@ gap:20px;
 }
 
 .project-card{
-background:#1e293b;
+background:#020617;
 padding:20px;
-border-radius:10px;
-transition:all .3s ease;
+border-radius:12px;
+border:1px solid #334155;
+transition:0.3s;
 }
 
 .project-card:hover{
-transform:translateY(-8px) scale(1.02);
-background:#334155;
-box-shadow:0 10px 25px rgba(0,0,0,.4);
+transform:translateY(-6px);
+border-color:#38bdf8;
+box-shadow:0 10px 30px rgba(56,189,248,0.15);
 }
 
 .stack-grid{
