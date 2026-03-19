@@ -214,3 +214,47 @@ border-color:#38bdf8;
 transform:translateY(-6px);
 border-color:#38bdf8;
 }
+
+@media (max-width:768px){
+
+.header-container{
+flex-direction:column;
+text-align:center;
+}
+
+.profile{
+width:120px;
+}
+
+.navbar{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:10px;
+}
+
+.project-grid{
+grid-template-columns:1fr;
+}
+
+.skills-grid{
+grid-template-columns:1fr 1fr;
+}
+
+.stack-grid{
+grid-template-columns:1fr 1fr;
+}
+
+.contact-grid{
+grid-template-columns:1fr;
+}
+
+section{
+padding:25px;
+}
+
+h1{
+font-size:28px;
+}
+
+}
