@@ -3,11 +3,18 @@
 <head>
 <title>Fadli Puteh - Portfolio</title>
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 <meta charset="UTF-8">
 </head>
 
 <body>
-
+<nav class="navbar">
+<a href="#about">About</a>
+<a href="#experience">Experience</a>
+<a href="#projects">Projects</a>
+<a href="#skills">Skills</a>
+<a href="#contact">Contact</a>
+</nav>
 <header>
 
 <div class="header-container">
@@ -31,7 +38,7 @@ Passionate about building reliable, scalable, and efficient infrastructure.
 </header>
 
 
-<section>
+<section id="about">
 
 <h2>About</h2>
 
@@ -56,7 +63,7 @@ reliability, availability, and operational efficiency.
 </section>
 
 
-<section>
+<section id="experience">
 
 <h2>My Experience</h2>
 <h3>Nexia KPS</h3>
@@ -84,65 +91,74 @@ reliability, availability, and operational efficiency.
 </section>
 
 
-<section>
+<section id="projects">
 
 <h2>Projects</h2>
 
-<ul>
+<div class="project-grid">
 
-<li>
-<strong>Branch Network Integration (MikroTik)</strong><br>
-Designed and implemented secure connectivity between branch offices and
-head office using MikroTik routing infrastructure to ensure stable and
-reliable internal communication.
-</li>
+<div class="project-card">
+<h3>MikroTik Network Integration</h3>
+<p>Connected branch offices to head office using MikroTik routing infrastructure.</p>
+</div>
 
-<li>
-<strong>Infrastructure Monitoring with Zabbix</strong><br>
-Deployed and configured Zabbix monitoring server to monitor infrastructure
-health including servers, services, and network devices for proactive
-incident detection.
-</li>
+<div class="project-card">
+<h3>Zabbix Monitoring Server</h3>
+<p>Infrastructure monitoring system for servers and network devices.</p>
+</div>
 
-<li>
-<strong>Self-Hosted Mail Platform (Mailcow)</strong><br>
-Implemented a secure enterprise email platform using Mailcow to support
-internal and external communication with full control over mail services.
-</li>
+<div class="project-card">
+<h3>Mailcow Mail Server</h3>
+<p>Self-hosted email system for internal communication.</p>
+</div>
 
-<li>
-<strong>DNS Filtering with Pi-hole</strong><br>
-Configured Pi-hole as a network-wide DNS filtering solution to block
-advertisements, malicious domains, and unwanted traffic within the
-organization network.
-</li>
+<div class="project-card">
+<h3>Pi-hole DNS Filtering</h3>
+<p>Network-wide DNS filtering for security and ad blocking.</p>
+</div>
 
-</ul>
+</div>
 
 </section>
 
 
-<section>
-
+<section id="skills">
 <h2>Skills</h2>
-
-<ul>
-
-<li><strong>Linux Administration</strong> — Debian server environment management</li>
-<li><strong>Proxmox Virtualization</strong> — Proxmox VE (PVE) and Proxmox Backup Server (PBS)</li>
-<li><strong>Networking</strong> — MikroTik router configuration and network infrastructure</li>
-<li><strong>VPN Configuration</strong> — L2TP VPN deployment and troubleshooting</li>
-<li><strong>Infrastructure Monitoring</strong> — Zabbix server monitoring and alerting</li>
-<li><strong>Email Infrastructure</strong> — Mailcow / mail server deployment and management</li>
-<li><strong>IT Asset Management</strong> — Asset tracking and infrastructure documentation</li>
-<li><strong>Problem Solving</strong> — Rapid learning and critical thinking in technical environments</li>
-
-</ul>
+  <div class="skills-grid">
+    <div class="skill">
+      <i class="fa-brands fa-linux"></i>
+      <p>Linux (Debian)</p>
+    </div>
+    <div class="skill">
+      <i class="fa-solid fa-server"></i>
+      <p>Proxmox VE / PBS</p>
+    </div>
+    <div class="skill">
+      <i class="fa-solid fa-network-wired"></i>
+      <p>MikroTik Networking</p>
+    </div>
+    <div class="skill">
+      <i class="fa-solid fa-shield-halved"></i>
+      <p>L2TP VPN</p>
+    </div>
+    <div class="skill">
+      <i class="fa-solid fa-chart-line"></i>
+      <p>Zabbix Monitoring</p>
+    </div>
+    <div class="skill">
+      <i class="fa-solid fa-envelope"></i>
+      <p>Mailcow Email</p>
+    </div>
+    <div class="skill">
+      <i class="fa-solid fa-box"></i>
+      <p>IT Asset Management</p>
+    </div>
+</div>
 
 </section>
 
 
-<section>
+<section id="contact">
 
 <h2>Contact</h2>
 
