@@ -177,74 +177,61 @@
   
     <ul>
       <li>Virtualization environment using Proxmox VE</li>
-      <li>Backup and disaster recovery testing with Proxmox Backup Server</li>
-      <li>Monitoring stack using Zabbix</li>
-      <li>DNS filtering infrastructure using Pi-hole</li>
+      <li>Monitoring stack</li>
+      <li>DNS filtering infrastructure</li>
       <li>Email infrastructure testing with Mailcow</li>
     </ul>
 
 </section>
 
 <section id="contact">
-
-<h2>Contact</h2>
-
-<div class="contact-grid">
-
-<div class="contact-card">
-<i class="fa-solid fa-envelope"></i>
-<p>Email</p>
-<a href="mailto:fadliputeh26@gmail.com">
-fadliputeh26@gmail.com
-</a>
-</div>
-
-<div class="contact-card">
-<i class="fa-brands fa-github"></i>
-<p>GitHub</p>
-<a href="https://github.com/fadliputeh">
-github.com/fadliputeh
-</a>
-</div>
-
-<div class="contact-card">
-<i class="fa-brands fa-linkedin"></i>
-<p>LinkedIn</p>
-<a href="https://www.linkedin.com/in/muhamad-fadli-puteh-088227264/">
-linkedin.com/in/fadliputeh
-</a>
-</div>
-
-</div>
-
+  <h2>Contact</h2>
+  <div class="contact-grid">
+      <div class="contact-card">
+        <i class="fa-solid fa-envelope"></i>
+        <p>Email</p>
+        <a href="mailto:fadliputeh26@gmail.com">
+          fadliputeh26@gmail.com
+        </a>
+      </div>
+      <div class="contact-card">
+        <i class="fa-brands fa-github"></i>
+        <p>GitHub</p>
+        <a href="https://github.com/fadliputeh">
+          github.com/fadliputeh
+        </a>
+      </div>
+      <div class="contact-card">
+        <i class="fa-brands fa-linkedin"></i>
+        <p>LinkedIn</p>
+        <a href="https://www.linkedin.com/in/muhamad-fadli-puteh-088227264/">
+          linkedin.com/in/fadliputeh
+        </a>
+      </div>
+    </div>
 </section>
 
-
 <script>
-
 const text = [
 "Infrastructure Engineer",
 "Network Engineer",
 "Linux System Administrator",
 "IT Support"
 ];
-
+  
 let count = 0;
 let index = 0;
 let currentText = "";
 let letter = "";
 
 (function type(){
-
 if(count === text.length){
 count = 0;
 }
 
 currentText = text[count];
 letter = currentText.slice(0, ++index);
-
 document.getElementById("typing").textContent = letter;
-
 if(letter.length === currentText.length){
 count++;
 index = 0;
@@ -252,12 +239,10 @@ setTimeout(type, 1200);
 } else {
 setTimeout(type, 80);
 }
-
 })();
 
 
 const sections = document.querySelectorAll("section");
-
 const observer = new IntersectionObserver(entries => {
 entries.forEach(entry => {
 if(entry.isIntersecting){
@@ -265,11 +250,9 @@ entry.target.classList.add("show");
 }
 });
 });
-
 sections.forEach(section=>{
 observer.observe(section);
 });
-
 </script>
 
 </body>
