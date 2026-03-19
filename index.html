@@ -3,11 +3,13 @@
 <head>
 <title>Fadli Puteh - Portfolio</title>
 <link rel="stylesheet" href="style.css">
-<link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 <meta charset="UTF-8">
 </head>
 
 <body>
+
 <nav class="navbar">
 <a href="#about">About</a>
 <a href="#experience">Experience</a>
@@ -15,6 +17,7 @@
 <a href="#skills">Skills</a>
 <a href="#contact">Contact</a>
 </nav>
+
 <header>
 
 <div class="header-container">
@@ -23,7 +26,10 @@
 
 <div>
 <h1>Fadli Puteh</h1>
-<p class="role">IT Infrastructure | Network Engineer | IT Support</p>
+
+<p class="role">
+<span id="typing"></span>
+</p>
 
 <p class="intro">
 Infrastructure-focused IT professional experienced in managing Linux servers,
@@ -39,25 +45,18 @@ Passionate about building reliable, scalable, and efficient infrastructure.
 
 
 <section id="about">
-
 <h2>About</h2>
 
 <p>
-I am an IT Infrastructure Engineer currently working at Nexia KPS, where I manage
-enterprise systems including virtualization servers, email infrastructure, and
-office network environments.
+I am an IT Infrastructure Engineer currently working at Nexia KPS,
+managing virtualization platforms, enterprise email systems,
+and corporate network infrastructure.
 </p>
 
 <p>
-My focus is on building reliable infrastructure solutions, optimizing server
-performance, and maintaining secure communication systems. I have hands-on
-experience with Linux environments, Proxmox virtualization, mail server
-deployment, and automated backup systems.
-</p>
-
-<p>
-I enjoy designing resilient infrastructure and continuously improving system
-reliability, availability, and operational efficiency.
+My work focuses on infrastructure reliability, automation,
+and building scalable systems using Linux, Proxmox,
+and modern networking technologies.
 </p>
 
 </section>
@@ -65,27 +64,26 @@ reliability, availability, and operational efficiency.
 
 <section id="experience">
 
-<h2>My Experience</h2>
-<h3>Nexia KPS</h3>
-<h3>IT Infrastructure</h3>
-<p class="date">Sep 2025 – Present · Jakarta, Indonesia</p>
+<h2>Experience</h2>
+
+<h3>Nexia KPS — IT Infrastructure</h3>
+<p class="date">Sep 2025 – Present · Jakarta</p>
 
 <ul>
-<li>Monitored and maintained IredMail server to ensure reliable enterprise email operations.</li>
-<li>Managed company IT assets and maintained structured inventory documentation.</li>
-<li>Administered network connectivity between Head Office and Branch Offices.</li>
-<li>Managed Proxmox virtualization infrastructure for efficient resource utilization.</li>
-<li>Participated in discussions and planning of ISO 22301 (BCMS), Disaster Recovery Plan (DRP), and Disaster Recovery Center (DRC).</li>
+<li>Maintained enterprise email infrastructure using IredMail.</li>
+<li>Managed Proxmox virtualization servers.</li>
+<li>Handled network connectivity between Head Office and Branch Offices.</li>
+<li>Managed company IT assets and infrastructure documentation.</li>
+<li>Participated in ISO 22301 BCMS and Disaster Recovery planning.</li>
 </ul>
 
-
-<h3>Junior IT — IT Infrastructure</h3>
-<p class="date">Feb 2025 – Aug 2025 · Jakarta Selatan, Indonesia</p>
+<h3>Junior IT Infrastructure</h3>
+<p class="date">Feb 2025 – Aug 2025 · Jakarta</p>
 
 <ul>
-<li>Troubleshooting hardware and software issues across company workstations.</li>
-<li>Managed networking infrastructure including VPN connectivity and printer sharing.</li>
-<li>Maintained CCTV monitoring systems and office network devices.</li>
+<li>Troubleshooting workstation hardware and software issues.</li>
+<li>Maintained VPN connectivity and printer sharing.</li>
+<li>Managed CCTV monitoring systems.</li>
 </ul>
 
 </section>
@@ -99,17 +97,17 @@ reliability, availability, and operational efficiency.
 
 <div class="project-card">
 <h3>MikroTik Network Integration</h3>
-<p>Connected branch offices to head office using MikroTik routing infrastructure.</p>
+<p>Connected branch offices to head office using secure MikroTik routing infrastructure.</p>
 </div>
 
 <div class="project-card">
 <h3>Zabbix Monitoring Server</h3>
-<p>Infrastructure monitoring system for servers and network devices.</p>
+<p>Infrastructure monitoring for servers and network devices.</p>
 </div>
 
 <div class="project-card">
 <h3>Mailcow Mail Server</h3>
-<p>Self-hosted email system for internal communication.</p>
+<p>Self-hosted enterprise email platform.</p>
 </div>
 
 <div class="project-card">
@@ -123,40 +121,51 @@ reliability, availability, and operational efficiency.
 
 
 <section id="skills">
+
 <h2>Skills</h2>
-  <div class="skills-grid">
-    <div class="skill">
-      <i class="fa-solid fa-brain"></i>
-      <p>Rapid Learning</p>
-    </div>
-    <div class="skill">
-      <i class="fa-brands fa-linux"></i>
-      <p>Linux (Debian)</p>
-    </div>
-    <div class="skill">
-      <i class="fa-solid fa-server"></i>
-      <p>Proxmox VE / PBS</p>
-    </div>
-    <div class="skill">
-      <i class="fa-solid fa-network-wired"></i>
-      <p>MikroTik Networking</p>
-    </div>
-    <div class="skill">
-      <i class="fa-solid fa-shield-halved"></i>
-      <p>L2TP VPN</p>
-    </div>
-    <div class="skill">
-      <i class="fa-solid fa-chart-line"></i>
-      <p>Zabbix Monitoring</p>
-    </div>
-    <div class="skill">
-      <i class="fa-solid fa-envelope"></i>
-      <p>Mailcow Email</p>
-    </div>
-    <div class="skill">
-      <i class="fa-solid fa-box"></i>
-      <p>IT Asset Management</p>
-    </div>
+
+<div class="skills-grid">
+
+<div class="skill">
+<i class="fa-brands fa-linux"></i>
+<p>Linux (Debian)</p>
+</div>
+
+<div class="skill">
+<i class="fa-solid fa-server"></i>
+<p>Proxmox VE / PBS</p>
+</div>
+
+<div class="skill">
+<i class="fa-solid fa-network-wired"></i>
+<p>MikroTik</p>
+</div>
+
+<div class="skill">
+<i class="fa-solid fa-shield-halved"></i>
+<p>L2TP VPN</p>
+</div>
+
+<div class="skill">
+<i class="fa-solid fa-chart-line"></i>
+<p>Zabbix Monitoring</p>
+</div>
+
+<div class="skill">
+<i class="fa-solid fa-envelope"></i>
+<p>Mailcow</p>
+</div>
+
+<div class="skill">
+<i class="fa-solid fa-box"></i>
+<p>IT Asset Management</p>
+</div>
+
+<div class="skill">
+<i class="fa-solid fa-brain"></i>
+<p>Rapid Learning</p>
+</div>
+
 </div>
 
 </section>
@@ -171,7 +180,41 @@ reliability, availability, and operational efficiency.
 
 </section>
 
+
 <script>
+
+const text = [
+"IT Infrastructure Engineer",
+"Network Engineer",
+"Linux System Administrator"
+];
+
+let count = 0;
+let index = 0;
+let currentText = "";
+let letter = "";
+
+(function type(){
+
+if(count === text.length){
+count = 0;
+}
+
+currentText = text[count];
+letter = currentText.slice(0, ++index);
+
+document.getElementById("typing").textContent = letter;
+
+if(letter.length === currentText.length){
+count++;
+index = 0;
+setTimeout(type, 1200);
+} else {
+setTimeout(type, 80);
+}
+
+})();
+
 
 const sections = document.querySelectorAll("section");
 
@@ -183,10 +226,11 @@ entry.target.classList.add("show");
 });
 });
 
-sections.forEach(section => {
+sections.forEach(section=>{
 observer.observe(section);
 });
 
 </script>
+
 </body>
 </html>
