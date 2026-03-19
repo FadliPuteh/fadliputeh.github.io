@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <img src="assets/puteh.JPG" class="profile">
 <title>Fadli Puteh - Portfolio</title>
 <link rel="stylesheet" href="style.css">
 </head>
